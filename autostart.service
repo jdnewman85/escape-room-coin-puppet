@@ -1,0 +1,8 @@
+[Unit]
+Description=Gypsy Start
+
+[Service]
+ExecStart=/home/alarm/python/main.py
+
+[Install]
+WantedBy=multi-user.target
